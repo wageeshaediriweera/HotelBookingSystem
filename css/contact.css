@@ -1,0 +1,139 @@
+/* Hero Section Styles (similar to ourcafe.css) */
+.hero-section {
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  margin-top: 260px;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+}
+
+/* Contact Page Specific Styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.contact-info,
+.contact-form {
+  flex: 1;
+}
+
+.contact-info h2,
+.contact-form h2 {
+  color: #b95d58;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-info i {
+  margin-right: 10px;
+  color: #b95d58;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  font-size: 1rem;
+  height: 150px;
+}
+
+.submit-btn {
+  background-color: #b95d58;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #a34f4a;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-content {
+    flex-direction: column;
+  }
+}
+
+/* Get In Touch Section Styles */
+.get-in-touch {
+  background-color: #f9f5f0;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.get-in-touch h2 {
+  color: #b95d58;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.get-in-touch h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.get-in-touch p {
+  color: #666;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
