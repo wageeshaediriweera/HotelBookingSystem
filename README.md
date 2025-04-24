@@ -21,3 +21,9 @@ This project features user authentication, hotel search and reservation, admin m
 
 - XAMPP or WAMP
 - A browser (Chrome, Firefox, etc.)
+### Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/wageeshaediriweera/HotelBookingSystem.git
